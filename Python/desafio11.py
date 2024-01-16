@@ -1,0 +1,5 @@
+n = float(input('Preço atual do produto: '))
+l = (n*0.05)
+d = (n-l)
+print(f'O valor originatario do produto é: R${n}')
+print(f'Com o desconto da liquidação abaixou para: R${d}')
